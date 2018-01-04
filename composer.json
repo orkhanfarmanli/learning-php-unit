@@ -1,6 +1,7 @@
 {
     "require": {
-        "phpunit/phpunit": "^6.5"
+        "phpunit/phpunit": "^6.5",
+        "illuminate/database": "^5.5"
     },
     "autoload": {
       "psr-4" : {

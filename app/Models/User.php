@@ -2,12 +2,14 @@
 
 namespace App\Models;
 
-class User
-{
+use Illuminate\Database\Eloquent\Model as Eloquent;
 
-    public $firstName;
-    public $lastName;
-    public $email;
+class User extends Eloquent
+{
+    protected $fillable = ['firstName', 'lastName', 'email'];
+    // public $firstName;
+    // public $lastName;
+    // public $email;
 
     /**
      *
