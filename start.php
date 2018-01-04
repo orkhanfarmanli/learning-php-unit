@@ -14,4 +14,4 @@ use Illuminate\Database\Capsule\Manager as Capsule;
 
 // User::create(['firstName' => 'Orxan', 'lastName' => 'Fərmanlı', 'email'=> 'orkhanfarmanli@gmail.com']);
 
-User::first()->delete();
+var_dump(User::first());
