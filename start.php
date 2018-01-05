@@ -12,6 +12,6 @@ use Illuminate\Database\Capsule\Manager as Capsule;
 //   $table->timestamps();
 // });
 
-// User::create(['firstName' => 'Orxan', 'lastName' => 'Fərmanlı', 'email'=> 'orkhanfarmanli@gmail.com']);
+User::create(['firstName' => 'Test', 'lastName' => 'User', 'email'=> 'testuser@gmail.com']);
 
-var_dump(User::first());
+// var_dump(User::first());
